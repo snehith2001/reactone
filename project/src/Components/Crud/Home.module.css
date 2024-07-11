@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(214, 209, 209);
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: #808080;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav>a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #808080;
+
+}
+
+/* .header{
+    height: 500px;
+    width: 300px;
+} */
+
+.head{
+    height: 400px;
+    width: 350px;
+    background-color: #808080;
+    margin-left: 550px;
+    margin-top: 90px;
+    padding-top: 100px;
+    padding-left: 35px;
+    box-shadow: 0px 0px 25px white;
+    border-radius: 15px;
+}
+.head>.a{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: #808080;
+}
+.head>.ai{
+    height: 20px;
+    margin-left: 55px;
+    /* margin-top: -20px; */
+    position: relative;
+    bottom: 7px;
+}
+
+.head>.b{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    background-color: #808080;
+
+}
+.head>.bi{
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 7px;
+}
+.head>.c{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    background-color: #808080;
+
+}
+.head>.ci{
+ 
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 7px;
+}
+.head>input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #808080;
+    width: 180px;
+    color: white;
+}
+.head>input:focus{
+    color: white;
+    background-color: #808080;
+    border: none;
+    /* border-bottom: 2px solid white; */
+}
+.head>button{
+    padding: 9px 35px;
+    color: #ffffff;
+    background-color: #808080;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 80px;
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+.head>button:hover{
+    cursor:pointer;
+
+}
